@@ -1,0 +1,381 @@
+-<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pshyco Reaper</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="icon" href="Assets/isotipo.png" type="image/png">
+
+</head>
+
+<body>
+    <header id="Inicio" class="section">
+        <div class="icon-scroll">
+            <div class="mouse">
+                <div class="scroll"></div>
+            </div>
+        </div>
+        <div class="video-container">
+            <video autoplay muted>
+                <source src="Assets/outro.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+
+
+
+    </header>
+    <nav class="header-nav">
+        <a href="#inicio" class="logo-nav"><img src="Assets/Logo de costado.png"></a>
+
+        <nav class="navbar">
+
+            <a class="ITLink" href="#Inicio" style="--i:0;">Inicio</a>
+            <a class="ITLink" href="#nosotros" style="--i:1;">Nosotros</a>
+            <a class="ITLink" href="#servicios" style="--i:2;">Servicios</a>
+            <a class="ITLink" href="#proyectos" style="--i:3;">Proyectos</a>
+
+        </nav>
+    </nav>
+
+
+
+
+    <main>
+
+        <div id="contenido">
+            <div id="nosotros" class="section">
+                <h2>Nosotros</h2>
+                <div class="content">
+                    <div class="CImage">
+                        <img src="Assets/Publicidad.png" alt="">
+                    </div>
+                    <div class="parrafo">
+                        <p>
+
+                            En Pshyco Reaper, convertimos ideas en experiencias visuales únicas. Somos un equipo de
+                            creativos apasionados, comprometidos en capturar la esencia de cada proyecto para
+                            transformarla
+                            en una obra visual que no solo inspire, sino que también cree una conexión genuina con la
+                            audiencia. Nuestra visión es darle vida a cada idea y ofrecer soluciones creativas,
+                            originales y
+                            completamente personalizadas.
+
+
+                        </p><br>
+                        <p>
+                            Creemos en el poder de la creatividad y la innovación para marcar una diferencia real. Nos
+                            enorgullece acompañarte en cada paso del camino, desde el concepto inicial hasta el
+                            resultado
+                            final, asegurándonos de que cada detalle refleje tu esencia y se traduzca en un proyecto
+                            auténtico y memorable. Confiamos en que la mejor forma de alcanzar el éxito es a través de
+                            una
+                            colaboración cercana y un diseño de calidad, enfocado en hacer que tus ideas cobren vida de
+                            una
+                            forma impactante y única. <br> <br>
+                            ¡Conéctate con nosotros y llevemos tus ideas al siguiente nivel!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="servicios" class="section">
+                <h2>Servicios</h2>
+                <div class="content">
+
+                    <div class="parrafo">
+                        <p>
+                            Ofrecemos una amplia gama de servicios creativos para llevar tus ideas al siguiente nivel.
+                            <br>
+                            Desde el desarrollo de animaciones y edición de video impactante, hasta ilustraciones únicas
+                            y diseño de estampados personalizados, nos especializamos en soluciones visuales innovadoras
+                            que destacan. <br>
+                            Cada servicio está diseñado para comunicar tu visión de manera auténtica y
+                            memorable, logrando resultados que conecten con tu audiencia y reflejen la esencia de tu
+                            proyecto.
+                        </p>
+                    </div>
+                    <div class="video">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/IRtapFfDFZM?si=JvpdN7HJaxm026D6"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="card-container">
+                        <!-- Tarjeta 1 -->
+                        <div class="card" id="card1" onclick="showT()">
+                            <img src="Assets/illustration-icon.svg" alt="">
+                            <h3>Ilustraciones</h3>
+                        </div>
+                        <div class="info oculto" id="info1">
+                            <div class="info-img">
+                                <img src="Assets/proyects/Texturas_Araiza cambio.jpg" alt="Imagen 1">
+                            </div>
+
+                            <div class="info-text">
+                                <h3>Ilustraciones Personalizadas</h3>
+                                <p>
+                                    Creación de ilustraciones únicas y detalladas, ideales para campañas, branding y
+                                    proyectos personalizados. <br>
+                                <ul>
+                                    <li>Diseños únicos y exclusivos</li>
+                                    <li>Calidad profesional garantizada</li>
+                                    <li>Adaptables a la identidad de tu marca</li>
+                                </ul>
+                                </p>
+                                <h4>Precio: $500 MXN por ilustración</h4>
+                                <div class="buttons">
+                                    <button class="coti">Cotizar</button>
+                                    <button class="cancel" onclick="cancel()">Cancelar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta 2 -->
+                        <div class="card" id="card2" onclick="showT()">
+                            <img src="Assets/animation-icon.svg" alt="">
+                            <h3>Animación</h3>
+                        </div>
+                        <div class="info oculto" id="info2">
+                            <div class="info-img">
+                                <img src="Assets/proyects/ghost-rider-pixelart.gif" alt="Imagen 1">
+                            </div>
+
+                            <div class="info-text">
+                                <h3>Animación Digital</h3>
+                                <p>
+                                    Animaciones visualmente impactantes para capturar la atención y comunicar tus ideas
+                                    de manera creativa. <br>
+                                <ul>
+                                    <li>Animaciones 2D y 3D de alta calidad</li>
+                                    <li>Estilos adaptables a tus necesidades</li>
+                                    <li>Ediciones interactivas y dinámicas
+                                    </li>
+                                </ul>
+                                </p>
+                                <h4>Precio: Desde $1200 MXN por minuto de animación</h4>
+                                <div class="buttons">
+                                    <button class="coti">Cotizar</button>
+                                    <button class="cancel" onclick="cancel()">Cancelar</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Tarjeta 3 -->
+                        <div class="card" id="card3" onclick="showT()">
+                            <img src="Assets/play-round-icon.svg" alt="">
+                            <h3>Edición de Video</h3>
+
+                        </div>
+                        <div class="info oculto" id="info3">
+                            <div class="info-img">
+                                <img src="Assets/proyects/filmora.png" alt="Imagen 1">
+                            </div>
+                            <div class="info-text">
+                                <h3>Edición de Video</h3>
+                                <p>
+                                    Transformamos tus grabaciones en piezas visuales con calidad cinematográfica que
+                                    cuentan una historia.<br>
+                                <ul>
+                                    <li>Montaje y edición creativa</li>
+                                    <li>Corrección de color </li>
+                                    <li>Transiciones y efectos de alta calidad</li>
+                                </ul>
+                                </p>
+                                <h4>Precio: Desde $800 MXN por minuto de video editado</h4>
+                                <div class="buttons">
+                                    <button class="coti">Cotizar</button>
+                                    <button class="cancel" onclick="cancel()">Cancelar</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="card" id="card4" onclick="showT()">
+                            <img src="Assets/men-t-shirts-icon.svg" alt="">
+                            <h3>Estampado</h3>
+
+                        </div>
+                        <div class="info oculto" id="info4">
+                            <div class="info-img">
+                                <img src="Assets/proyects/peaches.png" alt="Imagen 1">
+                            </div>
+                            <div class="info-text">
+                                <h3>Estampado Personalizado de Ropa</h3>
+                                <p>
+                                    Dale vida a tus prendas con diseños exclusivos y duraderos que reflejan tu estilo
+                                    personal. <br>
+                                <ul>
+                                    <li>Calidad de impresión y resistencia</li>
+                                    <li>Diseño único y personalizable</li>
+                                    <li>Prendas seleccionadas para mayor durabilidad</li>
+                                </ul>
+                                </p>
+                                <h4>Precio: $250 MXN por prenda</h4>
+                                <div class="buttons">
+                                    <button class="coti">Cotizar</button>
+                                    <button class="cancel" onclick="cancel()">Cancelar</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="card" id="card5">
+                            <img src="Assets/coming-soon-icon.svg" alt="">
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div id="proyectos" class="section">
+                <h2>Proyectos</h2>
+
+                <div class="content">
+                    <div class="carousel-container">
+                        <div class="carousel">
+                          <!-- Imagen o Video -->
+                          <div class="carousel-item">
+                            <img src="Assets/proyects/441405763_310250595445100_8004576900953641213_n.jpg" alt="Imagen 1">
+                          </div>
+                          <div class="carousel-item">
+                            <video src="Assets/proyects/Nathan ciclo caminado con fondo.mp4" autoplay controls muted loop></video>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/proyects/Fethers(Muestras de pinceles)_AlexisAraiza.jpg" alt="Imagen 2">
+                          </div>
+                          <div class="carousel-item">
+                            <video src="Assets/proyects/Practica Key light.mp4" autoplay controls muted loop></video>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/proyects/gorra jake.png" alt="Imagen 2">
+                          </div>
+                          <div class="carousel-item">
+                            <video src="Assets/proyects/Practica 1- Animación 223493.mp4" autoplay controls muted loop></video>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/proyects/Imagen isometrica de hora de aventura.png" alt="Imagen 2">
+                          </div>
+                          <div class="carousel-item">
+                            <video src="Assets/proyects/QuickSort-2.mp4" autoplay controls muted loop></video>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/proyects/Mattepainting.png" alt="Imagen 2">
+                          </div>
+                          <div class="carousel-item">
+                            <video src="Assets/proyects/Practica 3- Rig Facial.mp4" autoplay controls muted loop></video>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/proyects/playeras.jpg" alt="Imagen 2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/proyects/pincel historia.png" alt="Imagen 2">
+                          </div>
+                
+                          <!-- Añadir más elementos aquí si es necesario -->
+                        </div>
+                        <button class="prev" onclick="prevSlide()">&#10094;</button>
+                        <button class="next" onclick="nextSlide()">&#10095;</button>
+                      </div>
+                      
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        </div>
+
+
+
+    </main>
+
+
+
+
+
+
+    <footer class="footer section">
+        <div class="FGC">
+            <!-- Logo y Sobre Nosotros -->
+            <div class="FS about">
+                <h3>Sobre Nosotros</h3>
+                <img src="Assets/isotipo.png" alt="Logo" class="FLogo">
+                <p>
+                    En Pshyco Reaper, convertimos ideas en experiencias visuales. Somos un equipo de
+                    creativos apasionados, enfocados en capturar la esencia de cada proyecto y transformarla en una obra
+                    visual que inspire y conecte con la audiencia. <br>
+
+                    Creemos en el poder de la creatividad y la innovación para marcar la diferencia. Nos enorgullece
+                    acompañarte desde la idea inicial hasta el resultado final, cuidando cada detalle para que cada
+                    proyecto sea único, auténtico y memorable. <br>
+
+                    ¡Conéctate con nosotros y llevemos tus ideas al siguiente nivel!
+                </p>
+            </div>
+            <!-- Foros, Legal y Contactos-->
+
+            <div class="legal">
+                <h3>Legal</h3>
+
+                <a class="ITLink" href="#">Acuerdo de Usuario</a>
+                <a class="ITLink" href="#">Términos del usuario</a>
+                <a class="ITLink" href="#">Política de privacidad</a>
+
+            </div>
+
+            <div class="contact">
+                <h3>Contacto</h3>
+                <a class="ITLink" href="https://www.facebook.com/?locale=es_LA"> <svg xmlns="http://www.w3.org/2000/svg"
+                        width="45" height="45" fill="#fff" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                    Pshyco Reaper
+                </a>
+                <a class="ITLink" href="https://www.instagram.com/"> <svg xmlns="http://www.w3.org/2000/svg" width="45"
+                        height="45" fill="#fff" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg> @PshycoReaper</a>
+
+                <a class="ITLink" href="https://www.gmail.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="#fff" class="bi bi-envelope"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                    </svg>
+                    pshyco_repear@gmail.com
+                </a>
+
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="JS/script.js"></script>
+<script src="JS/cards.js"></script>
+
+</html>

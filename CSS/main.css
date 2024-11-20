@@ -811,7 +811,7 @@ button:hover {
         align-items: center;
         justify-content: center;
         gap: 15%;
-        flex-direction: column
+        flex-direction: column;
     }
 
     .parrafo {
@@ -1138,7 +1138,7 @@ button:hover {
 
     .contact {
         width: 100%;
-        display: flex
+        display: flex;
 ;
         flex-direction: column;
         align-content: center;
@@ -1312,7 +1312,7 @@ button:hover {
         align-items: center;
         justify-content: center;
         gap: 15%;
-        flex-direction: column
+        flex-direction: column;
     }
 
     .parrafo {
@@ -1641,7 +1641,7 @@ button:hover {
 
     .contact {
         width: 100%;
-        display: flex
+        display: flex;
 ;
         flex-direction: column;
         align-content: center;

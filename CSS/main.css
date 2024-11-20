@@ -1328,7 +1328,7 @@ button:hover {
 
     .parrafo p {
         font-size: 16px;
-        line-height: 30px;
+        line-height: 20px;
         text-align: left;
     
     }
@@ -1436,16 +1436,18 @@ button:hover {
 
     .info-text h4 {
         font-size: 18px;
+        line-height: 20px;
     }
 
     .info-text p {
         font-size: 16px;
-        line-height: 30px;
+        line-height: 20px;
        
     }
 
     .info-text ul li {
         font-size: 16px;
+        line-height: 20px;
     }
 
     .buttons {

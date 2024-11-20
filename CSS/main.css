@@ -1324,6 +1324,7 @@ button:hover {
     .parrafo p {
         font-size: .9rem;
         text-align: left;
+        line-height: 15px;
     }
 
     .CImage {
@@ -1432,6 +1433,7 @@ button:hover {
 
     .info-text p {
         font-size: .9rem;
+        line-height: 15px;
     }
 
     .info-text ul li {
@@ -1682,11 +1684,11 @@ button:hover {
     }
 
     .legal a {
-        width: 50%;
+        width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 8px;
+        margin-top: 18px;
         color: white;
         text-decoration: none;
     }

@@ -927,26 +927,25 @@ button:hover {
     }
 
     .info-text h3 {
-        font-size: 20px;
-        line-height: 20px;
-    }
-
-    .info-text h4 {
         font-size: 18px;
         line-height: 20px;
     }
 
-    .info-text p {
+    .info-text h4 {
         font-size: 16px;
+        line-height: 20px;
+    }
+
+    .info-text p {
+        font-size: 15px;
         line-height: 20px;
        
     }
 
     .info-text ul li {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 20px;
     }
-
     .buttons {
         width: 80%;
 
@@ -1436,23 +1435,23 @@ button:hover {
     }
 
     .info-text h3 {
-        font-size: 20px;
-        line-height: 20px;
-    }
-
-    .info-text h4 {
         font-size: 18px;
         line-height: 20px;
     }
 
-    .info-text p {
+    .info-text h4 {
         font-size: 16px;
+        line-height: 20px;
+    }
+
+    .info-text p {
+        font-size: 15px;
         line-height: 20px;
        
     }
 
     .info-text ul li {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 20px;
     }
 

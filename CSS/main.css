@@ -1424,7 +1424,7 @@ button:hover {
         display: flex;
         padding: 20px;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: start;
         justify-content: space-evenly;
      
 
@@ -1432,6 +1432,7 @@ button:hover {
 
     .info-text h3 {
         font-size: 20px;
+        line-height: 20px;
     }
 
     .info-text h4 {

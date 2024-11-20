@@ -29,6 +29,7 @@ h6 {
 
 html {
     overflow-x: hidden;
+    font-size: 62.5%; /* Esto hace que 1rem = 10px */
 }
 
 body {
